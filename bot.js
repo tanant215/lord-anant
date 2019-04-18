@@ -15,7 +15,7 @@ console.log(`${client.user.tag} running on ${client.guilds.size} guilds with ${c
  
 client.on("message", async (message) => {
 	
-	let prefix = "a!";
+	let prefix = "^^";
 	
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
