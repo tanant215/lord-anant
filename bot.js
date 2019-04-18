@@ -54,9 +54,9 @@ if(cmd === `yobot`) {
 	
 }
 
-if(cmd === `info`) {
+if(cmd === `help`) {
 	
-	mesaage.channel.send(`**Here the details**`)
+	mesaage.channel.send(`**Here the all details**`)
   
     let embed = new Discord.RichEmbed()
     
@@ -65,6 +65,7 @@ if(cmd === `info`) {
     .setDescription("Bot Details")
     .addField("Bot Owner", "Anant", true)
     .addField("Language", "Javascript Hosted on Heruko 24 hours", true)
+    .addField("Features", "Rainbow Roles", true)
     .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id=568434092753027074&permissions=8&scope=bot)", true)
     .addField("Thanks for making me;D", "One GhostRider", true)
     .setFooter(msg.author.username)
