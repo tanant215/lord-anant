@@ -14,7 +14,7 @@
   "author": "DarkLegend",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "*",
     "simple-youtube-api": "*",
     "dotenv": "^6.0.0",
     "ffmpeg-binaries": "^3.2.2-3",
