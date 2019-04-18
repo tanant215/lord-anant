@@ -56,7 +56,7 @@ if(cmd === `yobot`) {
 
 if(cmd === `info`) {
 	
-	msg.channel.send(`**Here the details`)
+	msg.channel.send(`**Here the details**`)
   
     let embed = new Discord.RichEmbed()
     
