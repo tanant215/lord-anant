@@ -60,7 +60,7 @@ if(cmd === `help`) {
   
     let embed = new Discord.RichEmbed()
     
-    .setAuthor(msg.author.username)
+    .setAuthor(message.author.username)
     .setColor('RANDOM')
     .setDescription("Bot Details")
     .addField("Bot Owner", "Anant", true)
@@ -68,9 +68,9 @@ if(cmd === `help`) {
     .addField("Features", "Rainbow Roles", true)
     .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id=568434092753027074&permissions=8&scope=bot)", true)
     .addField("Thanks for making me;D", "One GhostRider", true)
-    .setFooter(msg.author.username)
+    .setFooter(client.user.tag)
     .setTimestamp();
-    msg.author.send(embed)
+    message.author.send(embed)
 	
 	
 }
