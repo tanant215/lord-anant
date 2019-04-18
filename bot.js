@@ -70,7 +70,7 @@ if(cmd === `help`) {
     .addField("Thanks for making me;D", "One GhostRider", true)
     .setFooter(client.user.tag)
     .setTimestamp();
-    message.author.send(embed)
+    message.channel.send(embed)
 	
 	
 }
