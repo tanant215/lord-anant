@@ -80,7 +80,7 @@ if(cmd === `multicolor`) {
 
 let help = message.content.split(' ').slice(1)
 
-if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: a!multicolor <role>**')
+if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: ^^multicolor <role>**')
 	
 let colors = ['RANDOM'];
 
