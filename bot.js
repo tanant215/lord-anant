@@ -56,20 +56,21 @@ if(cmd === `yobot`) {
 
 if(cmd === `info`) {
 	
-	message.channel.send(`**Here the details`)
+	msg.channel.send(`**Here the details`)
   
     let embed = new Discord.RichEmbed()
     
-    .setAuthor(message.author.username)
+    .setAuthor(msg.author.username)
     .setColor('RANDOM')
     .setDescription("Bot Details")
     .addField("Bot Owner", "Anant", true)
     .addField("Language", "Javascript Hosted on Heruko 24 hours", true)
     .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id=568434092753027074&permissions=8&scope=bot)", true)
     .addField("Thanks for making me;D", "One GhostRider", true)
-    .setFooter(client.user.tag)
+    .setFooter(msg.author.username)
     .setTimestamp();
-    message.author.send(embed)
+    msg.author.send(embed)
+	
 	
 }
 
